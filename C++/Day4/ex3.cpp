@@ -39,9 +39,5 @@ int main()
         cout<<arr3[i]<<endl;
     }
 
-    for(int i =0;i<arr3size;i++){
-        cout<<arr3[i]<<endl;
-    }
-
 	return 0;
 }
