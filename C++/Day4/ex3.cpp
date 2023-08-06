@@ -32,8 +32,12 @@ int main()
         arr3[j] = arr2[i];
         j++;
     }
-
+        // Sorting Inbuilt method
     sort(arr3,arr3+arr3size);
+
+    for(int i =0;i<arr3size;i++){
+        cout<<arr3[i]<<endl;
+    }
 
     for(int i =0;i<arr3size;i++){
         cout<<arr3[i]<<endl;
